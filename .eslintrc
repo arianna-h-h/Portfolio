@@ -1,0 +1,17 @@
+{
+  "parser"  : "babel-eslint",
+  "extends" : "airbnb",
+  "plugins": [
+    "babel"
+  ],
+  "env"     : {
+    "es6" : true,
+    "browser" : true
+  },
+  "rules": {
+    "semi" : ["error", "always"],
+    "max-len": [2, 120, 2],
+    "generator-star-spacing": 0,
+    "object-curly-spacing": ["error", "always"]
+  }
+}
